@@ -2,25 +2,28 @@
     font-family: "Source Sans Pro", Helvetica,  Arial,  "San Serif";
 }
 
+.ks-full {
+    width:100%;
+    height: 52px;
+}
+
 /*<-----Header------>*/
 .ks-navbar {
     background-color: #FFFEFC;
-    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.44);
+    /*box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.44);*/
+    height: 52px;
+    /*margin-bottom: 5px;*/
 }
 .ks-logo {
-    width: 145px;
-    float: left;
-    margin-top: 6px;
-    margin-left: -7px;
+    width: 153px;
 }
 
 .ks-brand {
     height:100%;
-    padding: 0;
+    padding-top: 7px;
 }
 .ks-nav {
     float:left;
-    list-style: none;
     padding-left: 59px;
 }
 
@@ -29,7 +32,6 @@
     float: left;
     font-family: "Source Sans Pro", Helvetica,  Arial,  "San Serif";
     font-size: 16px;
-    margin: 14px 24px 0;
 }
 
 a:active {
@@ -47,11 +49,146 @@ a {
     color: #34393A;
 }
 
+.ks-toggle {
+    color: #EF7202;
+    background-color:transparent;
+    border: none;
+    font-size: 22px;
+    margin-top: -60px;
+}
+
+.ks-toggle:after {
+    background-color: transparent;
+}
+
 /*<-----End Header------>*/
+
+/*<-----pages------>*/
+.ks-container {
+    padding-top: 66px;
+}
+/*<-----pages------>*/
 
 /*<-----My work------>*/
 
 .ks-project {
+    width:100%;
+}
+
+.ks-project-name {
+    font-family: "Source Sans Pro", Helvetica, Arial, "San Serif";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ks-project-container {
+    margin-top: 10px;
+}
+/*<-----End My work------>*/
+
+/*<-----About Me------>*/
+.ks-about-page {
+    background-color: #34393A;
+    padding: 30px 15px;
+    margin-top: 15px;
+
+}
+
+.ks-about-photo {
     width: 100%;
-    background-color: #E5E6E2;
+    margin-bottom: 20px;
+}
+
+.ks-name {
+    font-family: "Source Sans Pro", Helvetica, Arial, "San Serif";
+    font-size: 25px;
+    color: #00D1C1;
+    margin-top: -4px;
+}
+
+.ks-send {
+    color: #EF7202;
+    font-size: 16px;
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+.ks-phone {
+    color: #EF7202;
+    font-size: 25px;
+    font-family: FontAwesome;
+    font-style: normal;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.ks-c-info {
+    color: #E5E6E2;
+    font-family: Avenir, Helvetica, "San Serif";
+    font-size: 16px;
+    display: inline-block;
+    padding-left:6px;
+}
+
+.ks-about-text {
+    font-family: Avenir, Helvetica, "San Serif";
+    font-size: 15px;
+    line-height: 23px;
+    color: #E5E6E2;
+}
+
+.ks-resume {
+    background-color: #EF7202;
+    width: 98%;
+    height: 45px;
+    color: #E5E6E2;
+    font-family: "Source Sans Pro", Helvetica, Arial, "San Serif";
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px;
+    padding-top: 8px;
+}
+
+.ks-resume:hover {
+    background-color: #00D1C1;
+    color: #E5E6E2;
+    padding-top: 8px;
+}
+
+
+.ks-resume-border {
+    text-align: center;
+    border: 2px solid #00D1C1;
+    width: 100%;
+    height: 55px;
+    padding-top: 3px;
+    display: block;
+}
+
+
+@media screen and (min-width:750px) {
+    .ks-resume {
+        background-color: #EF7202;
+        width: 270px;
+        height: 45px;
+        color: #E5E6E2;
+        font-family: "Source Sans Pro", Helvetica, Arial, "San Serif";
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+        padding-top: 8px;
+    }
+
+    .ks-resume-border {
+        text-align: center;
+        border: 2px solid #00D1C1;
+        width: 280px;
+        height: 55px;
+        padding-top: 3px;
+        display: block;
+    }
+
+
 }

@@ -1,3 +1,3 @@
-/**
- * Created by kerstinsegervall on 2/17/16.
- */
+$(function(){
+    $("#includeNav").load("Components/Nav.html");
+});
